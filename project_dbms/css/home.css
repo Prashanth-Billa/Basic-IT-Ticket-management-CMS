@@ -1,0 +1,242 @@
+A:link {text-decoration: none;}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover { text-decoration:none}
+
+
+#mtable{
+border:100px solid red;
+}
+
+body{
+    background-color:#FDEEF4;
+    border-width:medium;
+    border-style:solid;
+    border-color:#98AFC7;
+	
+    
+}
+
+fieldset{
+    border-color:#C9C299;
+    border-style:groove;
+    
+}
+input#qe{
+    border-color:#726E6D;
+    background-color:#FCDFFF;
+}
+
+input#web{
+border:none;
+}
+input#images{
+border:none;
+}
+input#video{
+border:none;
+}
+input#maps{
+border:none;
+}
+input#ebook{
+border:none;
+}
+input#v1{
+  border:none;
+
+
+}
+input#v2{
+  border:none;
+}
+input#v3{
+  border:none;
+}
+input#v4{
+  border:none;
+}
+input#v5{
+  border:none;
+}
+
+.fg{
+    text-decoration:none;
+    
+}
+.cus{
+    display:none;
+
+}
+
+#dattym{
+    border:none;
+    
+    background-attachment:fixed;
+   background:#ECE5B6;
+    font-weight:200;
+    
+}
+#cussearch{
+    text-decoration:none;
+}
+#cussearch:hover{
+    color:#150517;
+    text-decoration:blink;
+    
+}
+#upload{
+    background-color:#EBDDE2;
+    border:none;
+    width:700px;
+    float:none;
+    margin:0 auto;
+    
+    
+     
+}
+
+
+
+
+.upz:hover{
+    color:	#805817;
+    background-color:#EBDDE2;
+    text-decoration:none;
+    
+}
+#qq{
+    background:black;
+}
+
+#search{
+    margin:0 auto;
+    width:500px;
+}
+#search:hover{
+background:#EBDDE2;}
+  
+#qq:hover{
+    background:#EBDDE2;
+    cursor:pointer;
+  
+    
+}
+
+.forumtop{
+    border-width:medium;
+    border-style:outset;
+    background:#C6AEC7;
+    color:black;
+    cursor:pointer;
+    margin:5px;
+    padding:5px;
+    width:50;
+    border-color:#EBDDE2;
+    
+}
+
+.forumtop:hover{
+    background:#FCDFFF;
+}
+
+#newtop{
+    
+    border-width:thin;
+    border-color:White;
+    border-style:inset;
+    background:#EBDDE2;
+    color:Black;
+    width:600px;
+    margin:0 auto;
+}
+.pos:hover{
+    background:#C9C299;
+}
+
+#posttable{
+
+    
+    
+    color:white;
+    font-weight:200;
+    border-style:solid;
+    border-width:thin;
+    border-spacing:0px;
+    border-color:#EBDDE2;
+    
+}
+.overlay{
+    background:transparent url(images/overlay) repeat top;
+    position:fixed;
+    z-index:100;
+}
+.box{
+    z-index:101;
+}
+#errorlogininfo{
+    width:700px;
+    margin:0 auto;
+    background:#EBDDE2;
+    border-width:thin;
+}
+#homepage{
+    background:#ECE5B6;
+}
+
+#prdiv{
+    background:#EBDDE2;
+}
+
+.contactc{
+    text-decoration:none;
+}
+td:hover{
+    background:#616D7E;
+    color:White;
+    border:none;
+}
+.jhg{
+    color:White;
+}
+#posttable{
+border:none;
+border-style:groove;
+ --webkit-border-radius: 20px; 
+-moz-border-radius: 20px; 
+border-radius: 20px; 
+    border-spacing:15px;
+   
+
+padding:10px;
+border-color:#C6AEC7;
+vertical-align:middle;
+z-index:20;
+
+
+   }
+#gowiki{
+--webkit-border-radius: 20px; 
+-moz-border-radius: 20px; 
+border-radius: 20px; 
+    
+}
+
+#qe{
+opacity:0.6;
+}
+#qe:hover{
+opacity:1;
+}
+.op,.fd{
+opacity:0.6;
+}
+.op:hover{
+opacity:1;
+
+}
+.fd:hover{
+opacity:1;
+}
+
+

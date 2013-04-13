@@ -1,0 +1,58 @@
+form {  
+  border: 1px solid #666699;  
+  padding: 5px;  
+}  
+
+input{
+    border-style:solid;
+border-width:medium;
+border-color:#ECD672;
+vertical-align: middle;
+}
+
+select{
+    border-style:solid;
+border-width:medium;
+border-color:#ECD672;
+}
+
+
+
+iframe{
+  
+SCROLLBAR-FACE-COLOR: #150517; 
+SCROLLBAR-ARROW-COLOR: #FAF8CC; 
+SCROLLBAR-TRACK-COLOR:	#736F6E ;
+SCROLLBAR-DARKSHADOW-COLOR:#ECE5B6; 
+}
+p#fn{
+    visibility:hidden;
+}
+p#ea{
+    visibility:hidden;
+}
+p#dom{
+    visibility:hidden;
+}
+
+p#ps{
+    visibility:hidden;
+}
+p#ps1{
+    visibility:hidden;
+}
+p#cps{
+    visibility:hidden;
+}
+p#cps1{
+    visibility:hidden;
+}
+p#dateinf{
+   display:none;
+}
+
+p#yearinf{
+   display:none;
+}
+
+

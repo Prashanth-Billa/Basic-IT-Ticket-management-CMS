@@ -1,0 +1,114 @@
+#remember
+{border:none;}
+#container {
+    width:780px;
+    margin:0 auto;
+    position: relative;
+}
+
+#content {
+    width:520px;
+   
+}
+a:link, a:visited {
+    color:#27b;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a img {
+    border-width:0;
+}
+#topnav {
+    padding:10px 0px 12px;
+    font-size:11px;
+    line-height:23px;
+    text-align:right;
+}
+#topnav a.signin {
+    background:#88bbd4;
+    padding:4px 6px 6px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#fff;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    *background:transparent url("images/signin-nav-bg-ie.png") no-repeat 0 0;
+    *padding:4px 12px 6px;
+}
+#topnav a.signin:hover {
+    background:#59B;
+    *background:transparent ;
+    *padding:4px 12px 6px;
+}
+
+
+
+
+
+
+
+#signin_menu {
+    -moz-border-radius-topleft:25px;
+    -moz-border-radius-toprightt:25px;
+    -moz-border-radius-bottomleft:25px;
+    -moz-border-radius-bottomright:25px;
+    -webkit-border-top-left-radius:25px;
+        -webkit-border-top-right-radius:25px;
+    -webkit-border-bottom-left-radius:25px;
+    -webkit-border-bottom-right-radius:25px;
+    display:none;
+    background-color:#EBDDE2;
+    position:absolute;
+    width:210px;
+    -moz-box-shadow: 10px 10px 10px ;  
+    -webkit-box-shadow: 10px 10px 10px ;  
+    box-shadow: 5px 5px 5px #ccc;
+    border:1px transparent;
+    text-align:left;
+    padding:12px;
+    top: 24.5px; 
+    right: 0px; 
+    margin-top:5px;
+    margin-right: 0px;
+    
+    color:#789;
+    font-size:11px;
+}
+
+#signin_menu input[type=text], #signin_menu input[type=password] {
+    display:block;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border:1px solid #ACE;
+    font-size:13px;
+    margin:0 0 5px;
+    padding:5px;
+    width:203px;
+}
+
+
+
+
+#signin_submit {
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+    background-color:#CCFB5D;
+ 
+    color:black;
+    
+    padding:4px 10px 5px;
+    font-size:11px;
+    margin:0 5px 0 0;
+    font-weight:bold;
+}
+
+#signin_submit:hover, #signin_submit:focus {
+    background-position:0 -50px;
+    cursor:pointer;
+}
+.contactc{
+    text-decoration:none;
+}

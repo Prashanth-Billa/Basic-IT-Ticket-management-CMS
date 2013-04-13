@@ -1,0 +1,374 @@
+
+* { margin: 0; padding: 0; }
+
+body {
+	margin-bottom: 50px;
+	background-color: #fff;
+	font: 92.5% 'Verdana', 'Lucida Grande', Verdana, Tahoma, Arial;
+}
+a { color: #32689b; text-decoration: none; }
+a:hover { color: #006400; }
+
+.alt { background-color: #fff; }
+
+pre, code { font: 1.0em Monaco, 'Courier New', monospace; }
+
+pre, p { margin-bottom: 1.0em; }
+h1 { font-size: 2em; }
+
+h2 { font-size: 1.3em; }
+#fopr a{
+	font-size:10px;
+}
+
+#upper {
+	background: #EBDDE2;
+	height:150px;
+}
+#header {
+	/*background: url('images/page_header_bblogo.png') no-repeat bottom right;  Remove to get rid of bb emblem. */
+	margin: 0 auto 10px;
+	width: 760px;
+	height: 150px;
+	position: relative;
+}
+
+#footer {
+	font-family: Georgia;
+	font-style: italic;
+	border-top: 1px solid #ccc;
+	margin: auto;
+	color: #666;
+	font-size: 1.0em;
+	padding-top: 10px;
+	clear: both;
+	text-align: right;
+	width: 760px;
+}
+
+
+#main {
+	font-size: 1.2em;
+	width: 760px;
+	margin: 0 auto 25px;
+	position: relative;
+background: grey;
+}
+
+
+#wrapper { 
+ margin:    auto;
+ margin:    auto;
+ width: 750px;
+}
+#faux {
+ background: url(faux-1-2-col.gif);
+ margin-bottom: 5px;
+ overflow: auto; /* Paul O Brien Fix for IE www.pmob.co.uk */
+ width: 100%
+}
+#leftcolumn{ 
+ display: inline;
+ color: #333;
+ margin: 10px;
+ padding: 0px;
+ width: auto;
+ float: left;
+}
+#rightcolumn { 
+ float: right;
+ color: #333;
+ margin: 10px;
+ padding: 0px;
+ width: 590px;
+ display: inline;
+ position: relative;
+}
+
+
+
+
+
+
+#rightcolumn h1 { color: #555; text-decoration: none; margin:20px auto;}
+ #rightcolumn h1 a:hover { color: #666; }
+ 
+ 
+#header h1 {
+	font-family: Georgia;
+	overflow: auto;
+	position: absolute;
+	display: block;
+	color: #444;
+	text-align: right;
+	letter-spacing: -1px;
+	right: 53px;
+	bottom: 26px;
+	padding: 6px;
+	z-index: 2;
+}
+#header p { margin-bottom: 0; }
+
+
+
+
+
+/* Login Form
+=================================== */
+
+.login {
+	position: absolute;
+	bottom: 31px;
+	left: 0;
+	font-weight: normal;
+	color: #444;
+	width: 100%;
+	z-index: 1;
+	font-size: 12px;
+}
+
+form.login {
+	bottom: 15px;
+}
+
+.login p { padding: 0 0 8px; }
+
+.login label {
+	display: block;
+	float: left;
+	padding-right: 10px;
+	line-height: 14px;
+}
+
+form.login input {
+	border: 1px solid #999;
+	padding: 2px;
+	line-height: 14px;
+	font-size: 12px;
+	margin: 0;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color:#fff;
+}
+
+form.login input.submit {
+	background-color: #ccc;
+	float: left;
+	margin-top: 14px;
+	margin-bottom: -10px;
+	display: block;
+	line-height: 15px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 2px 4px;
+}
+
+form.login input.submit:hover {
+	background-color: #ddd;
+	color: rgb(0, 100, 0);
+}
+
+form.login input.submit:active {
+	border-color: rgb(0, 100, 0);
+}
+
+
+
+#rightcolumn h2,#leftcolumn  h2 {
+	color: #555;
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 10px;
+	padding: 0 0 5px;
+}
+
+
+
+
+
+
+.num, #forumlist small {
+	font: 11px Verdana,Arial,Helvetica,sans-serif;
+	text-align: center;
+	white-space: nowrap;
+}
+
+
+ #forumlist td { padding: 5px 10px; }
+
+#forumlist tr td div.nest {
+	padding-left: 2.5ex;
+}
+
+ #forumlist tr:hover { background-color: #D0E9F2; }
+
+ #forumlist th{
+	text-align: left;
+	background-color: rgb(102, 102, 102);
+	font: 11px Verdana,Arial,Helvetica,sans-serif;
+	font-weight: normal;
+	padding: 5px 9px;
+	color: rgb(255, 255, 255);
+background: black;
+}
+
+ #forumlist th a {
+	color: rgb(200, 200, 200);
+}
+
+ #forumlist th a:hover {
+	color: rgb(255, 255, 255);
+	opacity:0.5;
+}
+
+tr.bb-category td {
+	background-color: #ddd;
+}
+
+#forumlist{
+	background-color: #f7f7f7;
+	margin-bottom: 3em;
+	width: 100%;
+}
+
+ #forumlist {
+	margin-top: -0.9em;
+}
+
+#featurelist li{ padding: 5px 10px; 
+ 	color: #32689b;;
+	}
+
+
+ #featurelist li:hover { background-color: #D0E9F2; }
+
+
+#featurelist{
+	background-color: #f7f7f7;
+	margin-bottom: 3em;
+	list-style-type:none;
+	
+}
+
+ #featurelist {
+	margin-left: 1em;
+}
+
+
+
+#thread {
+	list-style: none;
+	margin: 2em 0 0 0;
+	padding: 0;
+}
+
+#thread li {
+	line-height: 1.5em;
+	clear: both;
+	/* Hack to force padding on .threadauthor on IE */
+	border-top: 1px solid #fff;
+}
+
+#thread li ol, #thread li ul { margin-left: 40px; }
+
+#thread li ol li, #thread li ul li { padding: 0; }
+
+.threadauthor {
+	float: left;
+	padding: 1em 1em 0 1em;
+	width: 120px;
+}
+
+.threadauthor p { margin: 0; }
+
+.threadauthor small { font: 11px Verdana, Arial, Helvetica, sans-serif; }
+
+.threadpost {
+	padding: 1.5em 1em;
+	margin-left: 140px;
+	background-color: #eee;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#thread .post {
+	_height: 90px; /* Hack to fix broken .alt coloring in IE6 */
+}
+
+#thread .post blockquote {
+	margin: 0 0 0 2.4em;
+	padding: 0 0 0 0.8em;
+	border-left: 3px solid #ccc;
+}
+
+#thread .post li { clear:none; }
+
+.poststuff {
+	clear:both;
+	_clear: none; /* Hack to fix broken .alt coloring in IE6 */
+	border-top: 1px dotted #ccc;
+	margin: 10px 0 0;
+	padding: 5px 0 0;
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.topiclink { display: block; }
+
+.topictitle {
+	font-size: 26px;
+	font-weight: normal;
+	display: inline;
+}
+
+
+
+form.cmxform fieldset {
+  margin-bottom: 10px;
+}
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+}
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+form.cmxform fieldset fieldset {
+  border: none;
+  margin: 3px 0 0;
+}
+form.cmxform fieldset fieldset legend {
+  padding: 0 0 5px;
+  font-weight: normal;
+}
+form.cmxform fieldset fieldset label {
+  display: block;
+  width: auto;
+}
+form.cmxform em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+form.cmxform label {
+  width: 120px; /* Width of labels */
+}
+form.cmxform fieldset fieldset label {
+  margin-left: 123px; /* Width plus 3 (html space) */
+}
